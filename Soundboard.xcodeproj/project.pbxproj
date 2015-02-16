@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0936E7901A91B47900FCF3CF /* anujSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0936E78F1A91B47900FCF3CF /* anujSound.m4a */; };
+		096EEB5F1A91B9F1002E86AC /* MonikacanSing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 096EEB5E1A91B9F1002E86AC /* MonikacanSing.m4a */; };
+		09727D111A91DD9A007571B4 /* NewSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09727D101A91DD9A007571B4 /* NewSoundViewController.swift */; };
+		09727D131A91F02E007571B4 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09727D121A91F02E007571B4 /* Sound.swift */; };
 		09791B801A91AFAF00D07FB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09791B7F1A91AFAF00D07FB8 /* AppDelegate.swift */; };
 		09791B831A91AFAF00D07FB8 /* Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09791B811A91AFAF00D07FB8 /* Soundboard.xcdatamodeld */; };
-		09791B851A91AFAF00D07FB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09791B841A91AFAF00D07FB8 /* ViewController.swift */; };
+		09791B851A91AFAF00D07FB8 /* SoundListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09791B841A91AFAF00D07FB8 /* SoundListViewController.swift */; };
 		09791B881A91AFAF00D07FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09791B861A91AFAF00D07FB8 /* Main.storyboard */; };
 		09791B8A1A91AFAF00D07FB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09791B891A91AFAF00D07FB8 /* Images.xcassets */; };
 		09791B8D1A91AFAF00D07FB8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09791B8B1A91AFAF00D07FB8 /* LaunchScreen.xib */; };
@@ -27,11 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0936E78F1A91B47900FCF3CF /* anujSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = anujSound.m4a; path = ../../../Desktop/anujSound.m4a; sourceTree = "<group>"; };
+		096EEB5E1A91B9F1002E86AC /* MonikacanSing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = MonikacanSing.m4a; path = ../../../Desktop/MonikacanSing.m4a; sourceTree = "<group>"; };
+		09727D101A91DD9A007571B4 /* NewSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSoundViewController.swift; sourceTree = "<group>"; };
+		09727D121A91F02E007571B4 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sound.swift; path = ../Sound.swift; sourceTree = "<group>"; };
 		09791B7A1A91AFAF00D07FB8 /* Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09791B7E1A91AFAF00D07FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09791B7F1A91AFAF00D07FB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09791B821A91AFAF00D07FB8 /* Soundboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soundboard.xcdatamodel; sourceTree = "<group>"; };
-		09791B841A91AFAF00D07FB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09791B841A91AFAF00D07FB8 /* SoundListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundListViewController.swift; sourceTree = "<group>"; };
 		09791B871A91AFAF00D07FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09791B891A91AFAF00D07FB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		09791B8C1A91AFAF00D07FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -79,8 +87,12 @@
 		09791B7C1A91AFAF00D07FB8 /* Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				096EEB5E1A91B9F1002E86AC /* MonikacanSing.m4a */,
+				0936E78F1A91B47900FCF3CF /* anujSound.m4a */,
+				09727D121A91F02E007571B4 /* Sound.swift */,
 				09791B7F1A91AFAF00D07FB8 /* AppDelegate.swift */,
-				09791B841A91AFAF00D07FB8 /* ViewController.swift */,
+				09727D101A91DD9A007571B4 /* NewSoundViewController.swift */,
+				09791B841A91AFAF00D07FB8 /* SoundListViewController.swift */,
 				09791B861A91AFAF00D07FB8 /* Main.storyboard */,
 				09791B891A91AFAF00D07FB8 /* Images.xcassets */,
 				09791B8B1A91AFAF00D07FB8 /* LaunchScreen.xib */,
@@ -195,6 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0936E7901A91B47900FCF3CF /* anujSound.m4a in Resources */,
+				096EEB5F1A91B9F1002E86AC /* MonikacanSing.m4a in Resources */,
 				09791B881A91AFAF00D07FB8 /* Main.storyboard in Resources */,
 				09791B8D1A91AFAF00D07FB8 /* LaunchScreen.xib in Resources */,
 				09791B8A1A91AFAF00D07FB8 /* Images.xcassets in Resources */,
@@ -215,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09791B851A91AFAF00D07FB8 /* ViewController.swift in Sources */,
+				09727D131A91F02E007571B4 /* Sound.swift in Sources */,
+				09791B851A91AFAF00D07FB8 /* SoundListViewController.swift in Sources */,
 				09791B831A91AFAF00D07FB8 /* Soundboard.xcdatamodeld in Sources */,
 				09791B801A91AFAF00D07FB8 /* AppDelegate.swift in Sources */,
+				09727D111A91DD9A007571B4 /* NewSoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +427,7 @@
 				09791B9E1A91AFAF00D07FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09791B9F1A91AFAF00D07FB8 /* Build configuration list for PBXNativeTarget "SoundboardTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +436,7 @@
 				09791BA11A91AFAF00D07FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
